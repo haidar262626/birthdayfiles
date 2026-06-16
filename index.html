@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Happy Birthday ❤️</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADING -->
+<div id="loading-screen">
+    <h2>Loading gift untuk kamu ❤️</h2>
+</div>
+
+<!-- OPENING -->
+<div id="opening-screen">
+    <h1>A Special Gift For You ❤️</h1>
+    <button id="open-btn">Buka Hadiah 🎁</button>
+</div>
+
+<!-- MAIN -->
+<div id="main" class="hidden">
+
+    <button id="theme-toggle">🌙</button>
+
+    <section class="hero">
+        <h1>Happy Birthday, Nisyaa Sayangg ❤️</h1>
+        <p>Happy Birthday sayangg, Doa terbaik untukmu, maaf jika tidak bisa merayakan
+            langsung dihadapanmu, tapi segenap hati mangucapkan
+            selamat bertambah usia wanita favoritkuu dan semoga hari kamu seindah senyummu ✨</p>
+        <img src="images/foto1.jpeg" class="couple-photo">
+    </section>
+
+    <section class="card">
+        <h2>💌 Surat Untukmu</h2>
+
+        <div class="love-box">
+            <p id="typing"></p>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>💖 Alasan Aku Sayang Kamu</h2>
+        <ul>
+            <li>I don’t need a reason to fall in love with you.
+                I love you because i want it.
+                I want you to always be the first and last person to get my attention and feelings.
+                I love you no matter how you are.
+                I need you sincere figure to me, please believe my words, I love you so much💖</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>🎉 Kejutan</h2>
+        <button id="confetti-btn">Klik Aku</button>
+    </section>
+
+    <canvas id="confetti"></canvas>
+
+    <audio id="music" loop>
+        <source src="music/lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer>
+        Made with Your boyfriend: Haidarr gantenk❤️
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
